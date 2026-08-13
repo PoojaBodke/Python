@@ -16,5 +16,9 @@ class Animal:
         print("Animal makes a sound")
 class Dog(Animal):
     pass
+    def bark(self):
+        print("Dog barks")
+
 dog=Dog()
 dog.speak()
+dog.bark()
