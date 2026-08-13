@@ -8,5 +8,5 @@ Expected:
 '''
 
 numbers=[1,2,3,4,5]
-multi=map(lambda x :x*10,numbers)
+multi=list(map(lambda x :x*10,numbers))
 print(multi)

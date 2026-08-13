@@ -1,10 +1,7 @@
 '''
 Exercise 1 — Lambda
-Create a lambda function that calculates the cube of a number.
-Example:
-cube(3)
-should return:
-27
+Create a lambda function that calculates the cube,square of a number.
+
 '''
 
 cube=lambda x:x*x*x
